@@ -124,7 +124,8 @@ button:hover {
 
 @media screen and (min-width: 768px) {
     .image img {
-        background: url('../imagens/image-product-desktop.jpg')
+        background: url('../imagens/image-product-desktop.jpg');
+        /*height: 100%;*/
     }
     .image {
         float: left;
