@@ -45,7 +45,7 @@ body {
     background-color: var(--white);
     border-radius: 8px;
     max-width: 600px;
-    width: 100% um;
+    width: 100%;
 }
 
 .image img {
@@ -138,6 +138,5 @@ button:hover {
     }
     .content {
         width: 50%;
-        height: 100%;
     }
 }
