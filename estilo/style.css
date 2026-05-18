@@ -44,7 +44,7 @@ body {
 .card {
     background-color: var(--white);
     border-radius: 8px;
-    max-width: 375px;
+    max-width: 600px;
     width: 95vw;
 }
 
@@ -68,7 +68,6 @@ body {
     letter-spacing: 5px;
     font-size: 12px;
     color: var(--grey);
-
 }
 
 h1 {
@@ -89,7 +88,6 @@ h1 {
     display: flex;
     gap: 10px;
     align-items: center;
-    justify-content: center;
 }
 
 .price .current {
@@ -104,6 +102,12 @@ h1 {
     color: var(--grey);
 }
 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+
     width: 100%;
     background-color: var(--green-500);
     color: var(--white);
@@ -112,8 +116,12 @@ button {
     font-size: 15px;
     border-radius: 8px;
     font-weight: var(--weight-bold);
-
 }
 button:hover {
     background-color: var(--green-700);
+    transition: 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+    
 }
