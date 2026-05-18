@@ -138,5 +138,6 @@ button:hover {
     }
     .content {
         width: 50%;
+        height: 100%;
     }
 }
