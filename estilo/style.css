@@ -84,12 +84,12 @@ h1 {
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
 }
 
 .price .current {
     font-family: var(--font-fraunces);
-    font-size: 2.2em;
+    font-size: 2.3em;
     color: var(--green-500);
 }
 
@@ -106,6 +106,7 @@ button {
     padding: 15px;
     border-radius: 8px;
     font-weight: var(--weight-bold);
+    margin-bottom: 20px;
 }
 button:hover {
     background-color: var(--green-700);
