@@ -45,7 +45,7 @@ body {
     background-color: var(--white);
     border-radius: 8px;
     max-width: 600px;
-    width: 95vw;
+    width: 100%;
 }
 
 .image img {
@@ -123,5 +123,7 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
-    
+    .card {
+        display: flex;
+    }
 }
