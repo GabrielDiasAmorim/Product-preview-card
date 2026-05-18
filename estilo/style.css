@@ -29,6 +29,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
     background-color: var(--cream);
     font-family: var(--font-montserrat);
@@ -38,12 +39,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .card {
     background-color: var(--white);
     border-radius: 8px;
     max-width: 375px;
     width: 95vw;
 }
+
 .image img {
     display: block;
     width: 100%;
@@ -51,38 +54,53 @@ body {
    /* height: 200px;
     background-size: cover;*/
 }
+
 .content {
     padding: 24px;
 }
+
 .category {
     font-size: 12px;
     color: var(--green-500);
     margin-bottom: 12px;
 }
+
 h1 {
     color: var(--black);
     font-size: 32px;
     font-family: var(--font-fraunces);
     margin-bottom: 1em;
 }
+
 .description {
     color: var(--grey);
     font-weight: var(--weight-normal);
     margin-bottom: 26px;
 }
+
 .price {
     display: flex;
     gap: 20px;
     align-items: center;
     margin-bottom: 20px;
 }
+
 .price .current {
     font-family: var(--font-fraunces);
     font-size: 32px;
     color: var(--green-500);
 }
+
 .price .old {
     font-size: 13px;
     text-decoration: line-through;
     color: var(--grey);
+}
+button {
+    width: 100%;
+    background-color: var(--green-500);
+    color: var(--white);
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: var(--weight-bold);
 }
