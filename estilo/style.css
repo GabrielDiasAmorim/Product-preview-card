@@ -59,3 +59,14 @@ body {
     color: var(--green-500);
     margin-bottom: 12px;
 }
+h1 {
+    color: var(--black);
+    font-size: 32px;
+    font-family: var(--font-fraunces);
+    margin-bottom: 1em;
+}
+.description {
+    color: var(--grey);
+    font-weight: var(--weight-normal);
+    margin-bottom: 26px;
+}
