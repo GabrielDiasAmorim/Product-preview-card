@@ -54,35 +54,40 @@ body {
 }
 
 .content {
-    padding: 24px;
+    padding: 20px;
 }
-
+.content > * {
+    margin-bottom: 16px;
+}
+.content > *:last-child {
+    margin-bottom: 0;
+}
 .category {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 12px;
     color: var(--grey);
-    margin-bottom: 12px;
+
 }
 
 h1 {
     color: var(--black);
     font-size: 32px;
     font-family: var(--font-fraunces);
-    margin-bottom: 1em;
+
 }
 
 .description {
     color: var(--grey);
     font-weight: var(--weight-normal);
-    margin-bottom: 26px;
+
 }
 
 .price {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
-    margin-bottom: 26px;
+    justify-content: center;
 }
 
 .price .current {
@@ -102,9 +107,10 @@ button {
     color: var(--white);
     border: none;
     padding: 15px;
+    font-size: 15px;
     border-radius: 8px;
     font-weight: var(--weight-bold);
-    margin-bottom: 20px;
+
 }
 button:hover {
     background-color: var(--green-700);
