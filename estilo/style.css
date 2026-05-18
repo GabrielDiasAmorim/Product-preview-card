@@ -48,4 +48,6 @@ body {
     display: block;
     width: 100px;
     border-radius: 8px;
+    height: 200px;
+    background-size: cover;
 }
