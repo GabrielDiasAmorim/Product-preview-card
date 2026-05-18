@@ -70,3 +70,13 @@ h1 {
     font-weight: var(--weight-normal);
     margin-bottom: 26px;
 }
+.price {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.price .current {
+    font-size: 32px;
+    color: var(--green-500);
+}
