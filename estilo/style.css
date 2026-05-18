@@ -1,0 +1,49 @@
+
+
+:root {
+  /* Cores - Primárias */
+  --green-500: hsl(158, 36%, 37%);
+  --green-700: hsl(158, 42%, 18%);
+
+  /* Cores - Neutras */
+  --black: hsl(212, 21%, 14%);
+  --grey: hsl(228, 12%, 48%);
+  --cream: hsl(30, 38%, 92%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Tipografia */
+  --font-body-size: 14px;
+  
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-fraunces: 'Fraunces', serif;
+
+  /* Pesos das Fontes */
+  --weight-normal: 500;
+  --weight-bold: 700;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--cream);
+    font-family: var(--font-montserrat);
+    font-size: var(--font-body-size);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: var(--white);
+    border-radius: 8px;
+    max-width: 375px;
+    width: 95vw;
+}
+.image img {
+    display: block;
+    width: 100px;
+    border-radius: 8px;
+}
