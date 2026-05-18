@@ -77,6 +77,12 @@ h1 {
     margin-bottom: 20px;
 }
 .price .current {
+    font-family: var(--font-fraunces);
     font-size: 32px;
     color: var(--green-500);
+}
+.price .old {
+    font-size: 13px;
+    text-decoration: line-through;
+    color: var(--grey);
 }
