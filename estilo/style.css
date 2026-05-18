@@ -123,17 +123,20 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
+    .card {
+        display: flex;
+    }
     .image img {
-        background: url('../imagens/image-product-desktop.jpg');
+        content: url('../imagens/image-product-desktop.jpg');
         height: 100%;
+        width: 100%;
         object-fit: cover;
+        border-radius: 8px 0 0 8px;
     }
     .image {
-        float: left;
         width: 50%;
     }
     .content {
-        float: right;
         width: 50%;
     }
 }
